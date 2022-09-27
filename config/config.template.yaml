@@ -1,0 +1,7 @@
+app:
+http: # config of http server which current service is listening
+  host: # http host
+  port: # http port
+grpc: # grpc clients list which current service is using
+  client:
+    user: # ex: localhost:8081
